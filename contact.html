@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Scott Leishman">
+  <meta name="description" content="Contact Alpine Bliss Resort to plan your Swiss Alps vacation.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpine Bliss Resort | Contact</title>
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><a href="index.html">Alpine Bliss Resort</a></h1>
+      <nav aria-label="Primary site navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Accommodations</a></li>
+          <li><a class="active" aria-current="page" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/swiss-valley.jpg" alt="Swiss valley hero with mountains and trees" width="1440" height="560">
+    </section>
+
+    <section class="contact-info">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us. Required fields marked with a *</p>
+
+        <div class="contact-grid">
+          <div class="form-container">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+              <div class="form-group">
+                <label for="fullname">Full Name *</label>
+                <input type="text" id="fullname" name="fullname" required aria-required="true" autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required aria-required="true" autocomplete="tel">
+              </div>
+              <fieldset class="form-group">
+                <legend>Preferred Contact Method *</legend>
+                <div class="radio-group">
+                  <input type="radio" id="prefEmail" name="preferred" value="email" required aria-required="true">
+                  <label for="prefEmail">Email</label>
+                </div>
+                <div class="radio-group">
+                  <input type="radio" id="prefPhone" name="preferred" value="phone" required aria-required="true">
+                  <label for="prefPhone">Phone</label>
+                </div>
+              </fieldset>
+              <div class="form-group">
+                <label for="comments">Comments *</label>
+                <textarea id="comments" name="comments" rows="6" required aria-required="true"></textarea>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="image-container">
+            <!-- Per the chosen wireframe option, this page uses swiss-peak -->
+            <img src="images/swiss-peak.jpg" alt="View from a snowy Swiss peak above the clouds" width="710" height="270" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Copyright &copy;2023 - Alpine Bliss Resort</p>
+      <p>This site is for educational purposes only</p>
+    </div>
+  </footer>
+</body>
+</html>
