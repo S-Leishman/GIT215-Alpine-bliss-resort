@@ -1,3 +1,7 @@
+Academic Honesty Notice:
+This repository contains original coursework by Scott Leishman.
+Do not copy or reuse any code, text, or design.
+
 # Alpine Bliss Resort Website
 
 A two-page website project built for educational purposes as part of a web development course.  
