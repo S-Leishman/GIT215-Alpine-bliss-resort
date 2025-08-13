@@ -1,129 +1,62 @@
-Academic Honesty Notice:
-This repository contains original coursework by Scott Leishman.
-Do not copy or reuse any code, text, or design.
+# 🏔️ Alpine Bliss Resort
 
-# Alpine Bliss Resort Website
+**Author:** Scott Leishman  
+**Course:** Intro to Web Authoring – Arizona State University  
 
-A two-page website project built for educational purposes as part of a web development course.  
-The site uses semantic HTML5, external CSS styling, accessible form elements, and matches the provided wireframes.
-
----
-
-## 📖 Overview
-
-The **Alpine Bliss Resort** website contains:
-
-### 🏔 Home Page (`index.html`)
-- Hero image: **Swiss Valley** scene
-- Introductory section highlighting the resort’s amenities
-- Two content groups with alternating image/text layouts:
-  - **Swiss Chalet**
-  - **Snowy Chalet**
-- Clean, semantic HTML structure
-
-### ✉ Contact Page (`contact.html`)
-- Hero image: **Swiss Valley**
-- Page intro text with required field notice
-- Contact form:
-  - Full name (required)
-  - Email address (required)
-  - Phone number (required)
-  - Preferred contact method (email or phone, required)
-  - Comments (required)
-  - Submit button
-- Form uses `POST` method with `https://wp.zybooks.com/form-viewer.php` as the action
-- Side-by-side layout with **Swiss Peak** image
-- Accessibility:
-  - `aria-required` attributes on required fields
-  - Descriptive `alt` text for images
+A responsive, two-page educational website project showcasing a fictional luxury resort in the Swiss Alps.  
+Built to demonstrate semantic HTML5, accessible navigation, organized CSS structure, and responsive design principles.
 
 ---
 
-## 🎨 Wireframes
-
-- **Option 2** for both Home and Contact pages  
-- Layouts strictly follow the provided wireframe designs, with enhancements for modern look and usability
+## 🌐 Live Site
+**GitHub Pages:** [Visit Alpine Bliss Resort](https://s-leishman.github.io/GIT215-Alpine-bliss-resort/)
 
 ---
 
-## 🛠 Technologies
-
-- **HTML5** for structure
-- **CSS3** for styling
-  - CSS variables for colors
-  - All font sizes in `rem` units for scalability
-- **Google Fonts**: *Lora* and *Open Sans*
-- **Responsive Design**:
-  - Fixed-width content (1280px) centered in the viewport
-  - Flexible image sizing
-- **Accessibility**: Semantic tags, ARIA attributes, alt text
-
----
-
-## 📂 File Structure
-
-```
-
-project/
-│
-├── index.html              # Home page
-├── contact.html            # Contact page
-├── styles.css              # External stylesheet
-│
-├── images/
-│   ├── favicon.png
-│   ├── swiss-valley.jpg
-│   ├── swiss-chalet.jpg
-│   ├── snowy-chalet.jpg
-│   ├── swiss-peak.jpg
-│   └── swiss-sunset.jpg
-│
-└── README.md               # Documentation
-
-````
-
----
-
-## ✨ Features
-
-- **Professional Layout** matching wireframes
-- **Consistent Theme** across pages (colors, spacing, typography)
-- **Visual Feedback**:
-  - Navigation hover and active states
-  - Form focus/invalid styling
-  - Animated button hover
-  - Hero image zoom-on-hover
-- **Performance & Usability**:
-  - `loading="lazy"` for non-critical images
-  - Relative linking for portability
-  - No inline CSS or JavaScript
-
----
-
-## 🚀 Setup & Viewing Instructions
-
-1. **Clone or Download** the repository:
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/alpine-bliss-resort.git
-````
-
-2. **Open** the project folder in your code editor (e.g., VS Code).
-3. **Double-click** `index.html` to open it in your browser.
-4. Use the navigation to view both pages.
-5. Test the **Contact Form** by filling in the fields and clicking **Submit**.
-
----
-
-## 👤 Author
-
-**Scott Leishman**
-Created for **educational purposes only** — not for commercial use.
+## ⚠️ Academic Honesty Notice
+This repository contains original coursework by **Scott Leishman**.  
+**Do not copy, reuse, or distribute** any part of this project without written permission.
 
 ---
 
 ## 📜 License
+**All Rights Reserved**  
+Copyright © 2025 Scott Leishman
 
-This project is intended for learning and demonstration purposes.
-All images and text are provided by course materials and should not be used commercially.
+---
 
-```
+## 📂 Project Structure
+GIT215-Alpine-bliss-resort/
+├── index.html ← Homepage (minified for deployment)
+├── contact.html ← Contact page (minified for deployment)
+├── css/
+│ └── styles.css ← Minified stylesheet used by the pages
+├── images/
+│ └── Site images (favicon, photos, graphics)
+├── js/
+│ └── script.js (placeholder for JavaScript)
+├── testing/
+│ └── Browser comparison screenshots & testing artifacts
+├── LICENSE
+└── README.md
+
+---
+
+## 🛠️ Development Workflow
+- All HTML and CSS deployed to GitHub Pages are **minified** for obfuscation.
+- `css/styles.css` is the minified stylesheet referenced by all HTML pages.
+- Testing screenshots and temporary files are stored in `testing/` and are not used in the live site.
+
+
+🖥️ How to View Locally
+Download or clone the repository.
+
+Open index.html in any web browser.
+
+📌 Notes
+Testing screenshots are stored in the testing/ folder and are not part of the live site.
+
+All images for the live site are stored in the images/ folder.
+
+Image alt attributes are descriptive for accessibility compliance.
+
