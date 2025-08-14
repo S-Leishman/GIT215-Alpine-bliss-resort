@@ -20,8 +20,10 @@ This repository contains original coursework by **Scott Leishman**.
 ---
 
 ## 📜 License
-**All Rights Reserved**  
-Copyright © 2025 Scott Leishman
+**Disclaimer:** This project is part of my coursework at Arizona State University.  
+> Do not copy or submit this work as your own for academic credit.  
+> You may view, reference, or learn from this code, but all original work must be properly cited.  
+> © 2025 Scott Leishman. Licensed under the MIT License.
 
 ---
 
